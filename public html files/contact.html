@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cantor College</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="javascript files/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <img src="C:\Users\hell_\OneDrive\Desktop\cantor college\images\logo.png" alt="Cantor College Logo" class="logo">
+    <h1>Contact Cantor College</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="course-detail.html">more course Info</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="information-on-students.html">Student Information</a></li>
+            <li><a href="libary-rules.html">libary rules</a></li>
+            <li><a href="staff.html">staff information </a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or need further information, please feel free to reach out to us through the following contact details:</p>
+        <p><strong>Address:</strong> Cantor College, Main Street, Sheffield, SC4 2BB</p>
+        <p><strong>Tel:</strong> (01321) 2340 235</p>
+        <p><strong>Fax:</strong> (01321) 2340 236</p>
+        <p><strong>Email:</strong> <a href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a></p>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Form</h2>
+        <form action="submit_contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
